@@ -1,0 +1,217 @@
+* {
+	margin: 0;
+	padding: 0;
+	/* border: 2px solid red; */
+}
+
+body {
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: monospace, sans-serif;
+	background-color: #ff981a;
+}
+
+.display {
+	background-color: #525252;
+	color: #f693c1;
+	font-size: 25px;
+	font-weight: 700;
+	border-radius: 15px;
+	box-shadow: inset 3px 3px 10px #2a2a2aa2;
+	grid-column: 1/5;
+	grid-row: 1/3;
+	margin-bottom: 10px;
+}
+
+.button {
+	border-radius: 8px;
+	text-align: center;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #d5cec4;
+	font-size: 12px;
+	font-weight: 600;
+	box-shadow: inset -2px -1px 5px #2a2a2a4b;
+}
+
+.button:hover {
+	background-color: #00a2b7;
+	color: #cc0052;
+	box-shadow: none;
+	/* border: 2px solid #161616; */
+}
+
+#footer {
+	font-weight: 400;
+}
+
+h1 {
+	margin-top: 30px;
+}
+
+.calc {
+	display: grid;
+	/* grid-auto-columns: 1fr;
+	grid-template-areas:
+		"disp disp disp disp"
+		"disp disp disp disp"
+		"ac c divide modulo"
+		"seven eight nine plus"
+		"four five six minus"
+		"one two three multi"
+		"point zeroNum equals equals";  */
+	grid-template-columns: repeat(4, 1fr);
+	gap: 5px;
+	width: 270px;
+	height: 450px;
+	padding: 15px;
+	border-radius: 20px;
+	background-color: #2a2a2a;
+	box-shadow: 6px 8px 15px #383737b8;
+	border: 2px #899091b9 solid;
+	margin-top: 70px;
+	margin-bottom: 30px;
+}
+
+.remainder {
+	grid-row: 3;
+	grid-column: 3;
+}
+.divide {
+	grid-row: 3;
+	grid-column: 4;
+}
+.equals {
+	grid-row: 7;
+	grid-column: 3/5;
+	background-color: #ff6a6ac4;
+}
+.one {
+	grid-column: 1;
+	grid-row: 6;
+}
+.two {
+	grid-column: 2;
+	grid-row: 6;
+}
+.three {
+	grid-column: 3;
+	grid-row: 6;
+}
+.four {
+	grid-column: 1;
+	grid-row: 5;
+}
+.five {
+	grid-column: 2;
+	grid-row: 5;
+}
+.six {
+	grid-column: 3;
+	grid-row: 5;
+}
+.seven {
+	grid-column: 1;
+	grid-row: 4;
+}
+.eight {
+	grid-column: 2;
+	grid-row: 4;
+}
+.nine {
+	grid-column: 3;
+	grid-row: 4;
+}
+.zero {
+	grid-column: 2;
+	grid-row: 7;
+}
+.dec {
+	grid-column: 1;
+	grid-row: 7;
+}
+.plus {
+	grid-column: 4;
+	grid-row: 4;
+}
+.minus {
+	grid-column: 4;
+	grid-row: 5;
+}
+.multiply {
+	grid-column: 4;
+	grid-row: 6;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	font-weight: 600;
+	font-size: 18px;
+	color: #ff3333;
+}
+
+/* div:nth-of-type(1) {
+	grid-area: disp;
+}
+div:nth-of-type(2) {
+	grid-area: ac;
+}
+div:nth-of-type(3) {
+	grid-area: c;
+}
+div:nth-of-type(4) {
+	grid-area: plus;
+}
+div:nth-of-type(5) {
+	grid-area: multi;
+}
+div:nth-of-type(6) {
+	grid-area: divide;
+}
+div:nth-of-type(7) {
+	grid-area: modulo;
+}
+div:nth-of-type(8) {
+	grid-area: one;
+}
+div:nth-of-type(9) {
+	grid-area: two;
+}
+div:nth-of-type(10) {
+	grid-area: three;
+}
+div:nth-of-type(11) {
+	grid-area: four;
+}
+div:nth-of-type(12) {
+	grid-area: five;
+}
+div:nth-of-type(13) {
+	grid-area: six;
+}
+div:nth-of-type(14) {
+	grid-area: seven;
+}
+div:nth-of-type(15) {
+	grid-area: eight;
+}
+div:nth-of-type(16) {
+	grid-area: nine;
+}
+div:nth-of-type(17) {
+	grid-area: zeroNum;
+}
+div:nth-of-type(18) {
+	grid-area: point;
+}
+div:nth-of-type(19) {
+	grid-area: equals;
+} */
