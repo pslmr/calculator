@@ -64,7 +64,6 @@ const displayCurrent = document.createElement("p");
 const displayPrevious = document.createElement("p");
 display.appendChild(displayCurrent);
 display.appendChild(displayPrevious);
-displayCurrent.setAttribute("style", "min-width: 0");
 displayPrevious.setAttribute("style", "color: #00a2b7");
 let firstNum = "";
 let secondNum = "";
