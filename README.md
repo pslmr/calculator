@@ -1,2 +1,2 @@
 # calculator
-Making a calculator from scratch.
+Making a calculator from scratch. Project made using basic knowledge in html, css, and vanilla javascript. No css/js frameworks used as of the moment. I learned how to apply everything I learned so far on my journey, it might have some bugs that I am not aware of. But overall the functionality of it being a simple calculator as a criteria is working. I do think that the js code is a little bit messy to my liking. Might revisit in the future if I find something that I can improve on, or just make the algorithm used more efficient and cleaner overall. *13/08/22 -PA-30* 
